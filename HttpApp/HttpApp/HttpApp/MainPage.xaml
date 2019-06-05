@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:HttpApp"
              x:Class="HttpApp.MainPage">
 
-    <StackLayout>
+    <StackLayout >
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="Usar httpClient" x:Name="httpclient" Clicked="Httpclient_Clicked" BackgroundColor="GreenYellow" TextColor="Black"/>
+        <Button HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="Usar HttpWebRequest" x:Name="httpwebrequest" Clicked="Httpwebrequest_Clicked" BackgroundColor="LightBlue" TextColor="Black"/>
     </StackLayout>
 
 </ContentPage>
